@@ -1,7 +1,7 @@
 {
 	"qbit.qbitInit|block": "初始化Qbit",
 	"qbit.setMotorSpeed|block": "設置電機1速度|%speed1|和電機2|速度 %speed2",
-	"qbit.Ultrasonic|block": "超聲波檢測到障礙物距離(釐米)",
+	"qbit.Ultrasonic|block": "超音波檢測到障礙物距離(釐米)",
 	"qbit.getSoundVolume|block": "音量大小",
 	"Lights.Light1|block":"彩燈1",
 	"Lights.Light2|block":"彩燈2",
@@ -48,7 +48,7 @@
 	"qbit.CmdType.NO_COMMAND|block":"無效的命令",
 	"qbit.CmdType.CAR_RUN|block":"車輛行進命令",
 	"qbit.CmdType.SERVO|block":"舵機控制命令",
-	"qbit.CmdType.ULTRASONIC|block":"超聲波距離查詢命令",
+	"qbit.CmdType.ULTRASONIC|block":"超音波距離查詢命令",
 	"qbit.CmdType.TEMPERATURE|block":"溫度查詢命令",
 	"qbit.CmdType.SOUND|block":"聲音查詢命令",
 	"qbit.CmdType.LIGHT|block":"光線查詢命令",
@@ -66,12 +66,13 @@
 	"qbit.CarRunCmdType.TURN_LEFT_SLOW|block":"慢速左轉",
 	"qbit.CarRunCmdType.TURN_RIGHT_SLOW|block":"慢速右轉",
 	"qbit.CarRunCmdType.COMMAND_ERRO|block":"無效的命令",
-	"qbit.convertUltrasonic|block":"轉換超聲波命令 %data",
+	"qbit.convertUltrasonic|block":"轉換超音波命令 %data",
 	"qbit.convertTemperature|block":"轉換溫度命令 %data",
 	"qbit.convertSound|block":"轉換聲音命令 %data",
 	"qbit.convertLight|block":"轉換光線命令 %data",
 	"qbit.convertBattery|block":"轉換電量命令 %data",
 	"qbit.getBatVoltage|block":"獲取qbit當前電壓值(mV)",
-	"qbit.UltrasonicSend|block":"發送超聲波測試距離到控制板中",
+	"qbit.UltrasonicSend|block":"發送超音波測試距離到控制板中",
 	"qbit.setBLAngle|block":"設置Qbit中心平衡角度"
 }
+
