@@ -1,7 +1,7 @@
 {
 	"qbit.qbitInit":"Qbit板初始化，請在開機時執行",
 	"qbit.setMotorSpeed":"設置馬達1和馬達2的速度，速度範圍-100到100，可控制坦克車行進和轉彎",
-	"qbit.Ultrasonic":"獲取超聲波檢測到障礙物的距離",
+	"qbit.Ultrasonic":"獲取超音波檢測到障礙物的距離",
 	"qbit.getSoundVolume":"獲取聲音感測器檢測到的音量等級，範圍0到255",
 	"qbit.setPixelRGB":"設置彩燈顏色，設置完成後請執行顯示彩燈操作",
 	"qbit.showLight":"顯示彩燈，和設置彩燈顏色配合使用，設置完彩燈顏色後必須執行顯示彩燈完成顯示",
@@ -16,13 +16,13 @@
 	"qbit.setPixelRGBArgs":"設置彩燈顏色，參數是顏色的索引，紅色,橙色,黃色,綠色,藍色,靛藍色,紫羅蘭色,紫色,白色對應1到9",
 	"qbit.setBrightness":"設置光的強度，一定要在顯示燈光之前設置，這樣才起到效果，範圍0到255",
 	"qbit.getBatVoltage":"獲取Qbit當前電壓值，單位是毫伏",
-	"qbit.analyzeBluetoothCmd":"解析手機APP發送的藍牙命令類型，一共有9種命令類型：行進命令，舵機調試命令(預留)，獲取超聲波距離命令，獲取溫度命令，獲取聲音大小等級命令，獲取光線等級命令，設置彩燈顏色命令，電池電量，鳴笛命令，固件版本資訊命令",
+	"qbit.analyzeBluetoothCmd":"解析手機APP發送的藍牙命令類型，一共有9種命令類型：行進命令，舵機調試命令(預留)，獲取超音波距離命令，獲取溫度命令，獲取聲音大小等級命令，獲取光線等級命令，設置彩燈顏色命令，電池電量，鳴笛命令，固件版本資訊命令",
 	"qbit.getArgs":"解析手機App發送的命令參數，舵機調試命令有3個參數，其餘都只有一個參數",
 	"qbit.getBluetoothCmdtype":"枚舉藍牙命令類型",
 	"qbit.getRunCarType":"獲取坦克車行進命令類型，有停止、前進、後退、左轉、右轉、慢速前進，慢速左轉，慢速右轉",
-	"qbit.convertUltrasonic":"轉換超聲波障礙物距離為標準命令，發送到手機端，APP會顯示超聲波障礙物距離",
+	"qbit.convertUltrasonic":"轉換超音波障礙物距離為標準命令，發送到手機端，APP會顯示超音波障礙物距離",
 	"qbit.convertTemperature":"轉換溫度值為標準命令，發送到手機端，APP會顯示當前溫度",
 	"qbit.convertLight":"轉換光線值為標準命令，發送到手機端，APP會顯示當前光線等級(0~255)",
 	"qbit.convertBattery":"轉換電壓值，發送到手機端，APP會顯示當前電壓",
-	"qbit.UltrasonicSend":"發送超聲波測試距離到控制板中，控制板獲取到距離就可以做出回應"
+	"qbit.UltrasonicSend":"發送超音波測試距離到控制板中，控制板獲取到距離就可以做出回應"
 }
